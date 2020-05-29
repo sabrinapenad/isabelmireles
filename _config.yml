@@ -1,6 +1,2 @@
 sass:
-    load_paths:
-        - _sass
-        - node_modules
-
-exclude: []
+  sass_dir: assets/css

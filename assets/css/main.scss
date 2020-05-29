@@ -1,0 +1,156 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+// Bootstrap breakpoints
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+
+// Navbar
+.nav-bar-main {
+  z-index: 1;
+}
+
+.nav-bar-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+}
+
+.nav-bar-logo-container {
+  margin-left: 20px;
+}
+
+.nav-bar-logo {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.nav-bar-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-bar-link {
+  color: black;
+}
+
+// Menu
+.sidenav-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.8s;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+//* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  padding: 10px;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+//* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+//* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.three-bars div {
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.one {
+    width: 30px;
+}
+
+.two {
+    width: 20px;
+}
+
+.three {
+    width: 25px;
+}
+
+.three-bars:hover div {
+    width: 30px;
+}
+
+// Work
+
+.work-img {
+  cursor: pointer;
+}
+
+.main-work-div {
+  z-index: 0;
+}
+
+
+.modal-dialoge {
+  width: 700px;
+  height: 600px!important;
+
+}
+
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+}
+
+@media (min-width: 576px) {
+
+  .modal-dialog {
+    max-width: 800px;
+    max-height: 1000px;
+  }
+
+  .carousel-item  {
+
+    img {
+      object-fit: scale-down;
+    }
+  }
+}
