@@ -37,6 +37,11 @@ $bootstrap-xl: 1200px;
   align-items: center;
 }
 
+.nav-bar-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
 .nav-bar-link {
   color: black;
 }
@@ -131,13 +136,13 @@ $bootstrap-xl: 1200px;
 
 .modal-dialoge {
   width: 700px;
-  height: 600px!important;
+  max-height: 600px!important;
 
 }
 
 .modal-content {
     /* 80% of window height */
-    height: 80%;
+    height: 100%;
 }
 
 @media (min-width: 576px) {
