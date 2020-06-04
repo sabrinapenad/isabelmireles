@@ -1,0 +1,293 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+// Bootstrap breakpoints
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+.container {
+  height: 100%;
+}
+
+
+// Homepage
+
+.home-background-container {
+  overflow: visible;
+  margin-top: 0px;
+  float: none;
+  clear: none;
+}
+
+.bg-color {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 75%;
+  height: 100%;
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+
+.home-main-container {
+  padding-top: 50px;
+}
+
+.home-left-container {
+  height: 100%;
+}
+
+.home-logo-container {
+  height: 30vh;
+}
+
+.home-logo {
+  width: 200px;
+}
+
+.home-main-text-container {
+  height: 30vh;
+}
+
+.home-main-title {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.home-main-subtitle {
+  letter-spacing: 1px;
+}
+
+
+.home-about-contact-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.home-about-contact-text {
+  font-size: 20px;
+}
+
+.arrow-icon {
+  width: 20px;
+}
+
+.home-social-media-links {
+  height: 10vh;
+}
+
+.home-social-media-icon {
+  width: 40px;
+}
+
+.home-right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.home-sidebar-container {
+  height: 20vh;
+}
+
+.home-work-subtitle-container {
+  height: 15vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-work-subtitle {
+  font-size: 18px;
+}
+
+
+.home-work-links {
+  height: 40vh;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.home-work-link {
+  padding-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+
+}
+
+.home-work-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.collages-home-background {
+  background-image: url("assets/collages-home.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.portraits-home-background {
+  background-image: url("assets/portraits-home.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+
+
+// Navbar
+.nav-bar-main {
+  z-index: 1;
+}
+
+.nav-bar-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+}
+
+.nav-bar-logo-container {
+  margin-left: 20px;
+}
+
+.nav-bar-logo {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.nav-bar-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-bar-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-bar-link {
+  color: black;
+}
+
+// Menu
+.sidenav-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.8s;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+//* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  padding: 10px;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+//* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+//* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.three-bars div {
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.one {
+    width: 30px;
+}
+
+.two {
+    width: 20px;
+}
+
+.three {
+    width: 25px;
+}
+
+.three-bars:hover div {
+    width: 30px;
+}
+
+// Work
+
+.work-img {
+  cursor: pointer;
+}
+
+.main-work-div {
+  z-index: 0;
+}
+
+
+.modal-dialoge {
+  width: 700px;
+  max-height: 600px!important;
+
+}
+
+.modal-content {
+    /* 80% of window height */
+    height: 100%;
+}
+
+@media (min-width: 576px) {
+
+  .modal-dialog {
+    max-width: 800px;
+    max-height: 1000px;
+  }
+
+  .carousel-item  {
+
+    img {
+      object-fit: scale-down;
+    }
+  }
+}

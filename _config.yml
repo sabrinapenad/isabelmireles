@@ -1,6 +1,12 @@
-sass:
-    load_paths:
-        - _sass
-        - node_modules
+contentful:
+  spaces:
+    - isabelmireles:
+        space: mdb7wi33n4kq
+        access_token: 6l2-rWQXhvDLkY4zH5M8XT51ytJS548Q6bQ0QfD9f8s
 
-exclude: []
+plugins:
+  - jekyll-datapage-generator
+
+
+sass:
+  sass_dir: assets/css
