@@ -10,7 +10,72 @@
 </head>
 
 <body>
-<h1 class="bla">Hello</h1>
+<div class="home-background-container">
+  <div class="home-background bg-color" id="home-background"></div>
+</div>
+<div class="home-main-container container">
+  <div class="row">
+    <div class="col-4 h-100">
+      <div class="home-left-container">
+        <div class="home-logo-container">
+          <img src="assets/logonegro.png" class="home-logo">
+        </div>
+        <div class="home-main-text-container">
+          <h1 class="home-main-title">Isabel Mireles</h1>
+          <h3 class="home-main-subtitle">Graphic Designer</h3>
+        </div>
+        <div class="home-about-contact-container">
+          <div class="home-about-contact-group">
+            <img class="arrow-icon" src="assets/right-arrow.ico">
+            <a class="home-about-contact-text">About</a>
+          </div>
+          <div class="home-about-contact-group">
+            <img class="arrow-icon" src="assets/right-arrow.ico">
+            <a class="home-about-contact-text">Contact</a>
+          </div>
+        </div>
+        <div class="home-social-media-links">
+          <img src="assets/behance.ico" alt="behance" class="home-social-media-icon">
+          <img src="assets/instagram.ico" alt="instagram" class="home-social-media-icon">
+        </div>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="home-right-container">
+        <div class="home-sidebar-container">
+          <div class="sidenav-container">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/work" class="sidenav-links">WORK</a>
+    <a href="/blog" class="sidenav-links">PROJECTS</a>
+    <a href="/about" class="sidenav-links">ABOUT</a>
+    <a href="/contact" class="sidenav-links">CONTACT</a>
+  </div>
+
+  <span onclick="openNav()" class="three-bars">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </span>
+</div>
+
+        </div>
+        <div class="home-work-container">
+          <div class="home-work-subtitle-container">
+            <h4 class="home-work-subtitle">MY WORK</h4>
+          </div>
+          <div class="home-work-links">
+            <a href="#" class="collage-link home-work-link" onmouseover="portraitBackgroundIn(this)" onmouseout="portraitBackgroundOut(this)">PORTRAITS</a>
+            <a href="#" class="home-work-link" onmouseover="collageBackgroundIn(this)" onmouseout="collageBackgroundOut(this)">COLLAGES</a>
+            <a href="#" class="home-work-link">PROJECTS</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

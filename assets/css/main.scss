@@ -9,6 +9,138 @@ $bootstrap-md: 768px;
 $bootstrap-lg: 992px;
 $bootstrap-xl: 1200px;
 
+.container {
+  height: 100%;
+}
+
+
+// Homepage
+
+.home-background-container {
+  overflow: visible;
+  margin-top: 0px;
+  float: none;
+  clear: none;
+}
+
+.bg-color {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 75%;
+  height: 100%;
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+
+.home-main-container {
+  padding-top: 50px;
+}
+
+.home-left-container {
+  height: 100%;
+}
+
+.home-logo-container {
+  height: 30vh;
+}
+
+.home-logo {
+  width: 200px;
+}
+
+.home-main-text-container {
+  height: 30vh;
+}
+
+.home-main-title {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.home-main-subtitle {
+  letter-spacing: 1px;
+}
+
+
+.home-about-contact-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.home-about-contact-text {
+  font-size: 20px;
+}
+
+.arrow-icon {
+  width: 20px;
+}
+
+.home-social-media-links {
+  height: 10vh;
+}
+
+.home-social-media-icon {
+  width: 40px;
+}
+
+.home-right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.home-sidebar-container {
+  height: 20vh;
+}
+
+.home-work-subtitle-container {
+  height: 15vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-work-subtitle {
+  font-size: 18px;
+}
+
+
+.home-work-links {
+  height: 40vh;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.home-work-link {
+  padding-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+
+}
+
+.home-work-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.collages-home-background {
+  background-image: url("assets/collages-home.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.portraits-home-background {
+  background-image: url("assets/portraits-home.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+
 
 // Navbar
 .nav-bar-main {
