@@ -156,6 +156,7 @@ $bootstrap-xl: 1200px;
 
 .nav-bar-logo-container {
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .nav-bar-logo {
@@ -261,33 +262,27 @@ $bootstrap-xl: 1200px;
   cursor: pointer;
 }
 
-.main-work-div {
-  z-index: 0;
+.work-body {
+  background-color: whitesmoke;
 }
 
 
-.modal-dialoge {
-  width: 700px;
-  max-height: 600px!important;
-
-}
-
-.modal-content {
-    /* 80% of window height */
-    height: 100%;
-}
-
-@media (min-width: 576px) {
+@media (min-width: $bootstrap-sm) {
 
   .modal-dialog {
     max-width: 800px;
-    max-height: 1000px;
+  }
+
+  .modal-content {
+      /* 80% of window height */
+      height: 100%;
   }
 
   .carousel-item  {
 
     img {
       object-fit: scale-down;
+      height: 480px;
     }
   }
 }
