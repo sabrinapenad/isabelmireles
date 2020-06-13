@@ -29,8 +29,7 @@ $bootstrap-xl: 1200px;
   right: 0px;
   width: 75%;
   height: 100%;
-  background-color: #f5f5f5;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .home-main-container {
@@ -57,10 +56,16 @@ $bootstrap-xl: 1200px;
   padding-bottom: 20px;
   letter-spacing: 2px;
   font-size: 50px;
+  font-family: "DM Serif Display";
+}
+
+.white-font {
+  color: white;
 }
 
 .home-main-subtitle {
   letter-spacing: 1px;
+  font-family: "Roboto";
 }
 
 
@@ -69,6 +74,10 @@ $bootstrap-xl: 1200px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+}
+
+.home-about-contact-group {
+  max-width: max-content;
 }
 
 .home-about-contact-text {
@@ -105,11 +114,12 @@ $bootstrap-xl: 1200px;
 
 .home-work-subtitle {
   font-size: 18px;
+  font-family: "DM Serif Display";
 }
 
 
 .home-work-links {
-  height: 40vh;
+  padding-top: 100px;
   align-items: flex-end;
   display: flex;
   flex-direction: column;
@@ -120,7 +130,8 @@ $bootstrap-xl: 1200px;
   padding-bottom: 50px;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 35px;
+  font-family: "DM Serif Display";
 
 }
 
@@ -151,7 +162,7 @@ $bootstrap-xl: 1200px;
   padding: 20px;
   display: flex;
   flex-direction: row;
-  background-color: lightgrey;
+  background-color: white;
 }
 
 .nav-bar-logo-container {
@@ -160,8 +171,7 @@ $bootstrap-xl: 1200px;
 }
 
 .nav-bar-logo {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 50%;
 }
 
 .nav-bar-links {
@@ -177,6 +187,7 @@ $bootstrap-xl: 1200px;
 
 .nav-bar-link {
   color: black;
+  font-family: "Roboto";
 }
 
 // Menu

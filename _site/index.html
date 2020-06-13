@@ -4,8 +4,7 @@
 <head>
   <title>Isabel Mireles</title>
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|DM+Serif+Display" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -25,13 +24,9 @@
             <h3 class="home-main-subtitle">Graphic Designer</h3>
           </div>
           <div class="home-about-contact-container">
-            <div class="home-about-contact-group">
+            <div class="home-about-contact-group" id="about-contact" onmouseover="backgroundColorIn(this)" onmouseout="backgroundColorOut(this)">
               <img class="arrow-icon" src="assets/right-arrow.ico">
-              <a class="home-about-contact-text">About</a>
-            </div>
-            <div class="home-about-contact-group">
-              <img class="arrow-icon" src="assets/right-arrow.ico">
-              <a class="home-about-contact-text">Contact</a>
+              <a class="home-about-contact-text">About + Contact</a>
             </div>
           </div>
           <div class="home-social-media-links">
@@ -61,13 +56,10 @@
 
           </div>
           <div class="home-work-container">
-            <div class="home-work-subtitle-container">
-              <h4 class="home-work-subtitle">MY WORK</h4>
-            </div>
             <div class="home-work-links">
-              <a href="/portraits" class="collage-link home-work-link" onmouseover="portraitBackgroundIn(this)" onmouseout="portraitBackgroundOut(this)">PORTRAITS</a>
-              <a href="/collages" class="home-work-link" onmouseover="collageBackgroundIn(this)" onmouseout="collageBackgroundOut(this)">COLLAGES</a>
-              <a href="#" class="home-work-link">PROJECTS</a>
+              <a href="/portraits" class="collage-link home-work-link" onmouseover="portraitBackgroundIn(this)" onmouseout="portraitBackgroundOut(this)">Portraits</a>
+              <a href="/collages" class="home-work-link" onmouseover="collageBackgroundIn(this)" onmouseout="collageBackgroundOut(this)">Collages</a>
+              <a href="#" class="home-work-link">Projects</a>
             </div>
           </div>
 
