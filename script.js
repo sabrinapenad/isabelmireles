@@ -8,9 +8,8 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-// MODAL
 
-// COLLAGE
+// HOME COLLAGE
 
 function collageBackgroundIn(obj) {
   document.getElementById('home-background').style.backgroundImage = "url('assets/collages-home.jpg')";
@@ -20,9 +19,10 @@ function collageBackgroundIn(obj) {
 
 function collageBackgroundOut(obj) {
   document.getElementById('home-background').style.backgroundImage = "none";
+
 }
 
-// PORTRAIT
+// HOME PORTRAIT
 
 function portraitBackgroundIn(obj) {
   document.getElementById('home-background').style.backgroundImage = "url('assets/portraits-home.jpg')";
@@ -32,4 +32,16 @@ function portraitBackgroundIn(obj) {
 
 function portraitBackgroundOut(obj) {
   document.getElementById('home-background').style.backgroundImage = "none";
+}
+
+// HOME ABOUT + Contact
+
+function backgroundColorIn(obj) {
+  document.getElementById('about-contact').style.backgroundColor = "#FF9F1C";
+  document.getElementById('about-contact').style.opacity = "0.8";
+}
+
+function backgroundColorOut(obj) {
+  document.getElementById('about-contact').style.backgroundColor = "white";
+  document.getElementById('about-contact').style.opacity = "1";
 }
