@@ -6493,22 +6493,10 @@ a.text-dark:hover, a.text-dark:focus {
 .container {
   height: 100%; }
 
-.home-background-container {
-  overflow: visible;
-  margin-top: 0px;
-  float: none;
-  clear: none; }
-
-.bg-color {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 75%;
-  height: 100%;
-  opacity: 0.7; }
-
 .home-main-container {
-  padding-top: 50px; }
+  padding-top: 50px;
+  animation: slide-in 0.5s 1;
+  animation-fill-mode: forwards; }
 
 .home-left-container {
   height: 100%; }
@@ -6591,16 +6579,42 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: underline;
   color: black; }
 
-.collages-home-background {
-  background-image: url("assets/collages-home.jpg");
-  background-size: cover;
-  opacity: 0.7; }
+.index-image-container {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 300px;
+  overflow: hidden; }
 
-.portraits-home-background {
-  background-image: url("assets/portraits-home.jpg");
-  background-size: cover;
-  opacity: 0.7; }
+.index-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover; }
 
+.hidden {
+  display: none; }
+
+.hide {
+  animation: slide-out 0.5s ease-in;
+  animation-fill-mode: forwards; }
+
+.show {
+  display: initial;
+  animation: slide-in 0.5s ease-out;
+  animation-fill-mode: forwards; }
+
+@keyframes slide-in {
+  0% {
+    opacity: 0%; }
+  100% {
+    opacity: 80%; } }
+@keyframes slide-out {
+  0% {
+    opacity: 80%; }
+  100% {
+    opacity: 0%; } }
 .nav-bar-main {
   z-index: 1; }
 

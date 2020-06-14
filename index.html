@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<body>
-  <div class="home-background-container">
-    <div class="home-background bg-color" id="home-background"></div>
+<body class="home-body">
+  <div class="index-image-container">
+    <img id="homeImage" class="show index-image" src="/assets/white-background-texture.JPG"/>
+    <img id="portraitsImage" class="hidden index-image" src="/assets/portraits-home.jpg"/>
+    <img id="collagesImage" class="hidden index-image" src="/assets/collages-home.jpg"/>
+    <img id="projectsImage" class="hidden index-image" src="/assets/projects-home.jpg"/>
   </div>
   <div class="home-main-container container">
     <div class="row">
@@ -36,9 +39,9 @@ layout: default
           </div>
           <div class="home-work-container">
             <div class="home-work-links">
-              <a href="/portraits" class="collage-link home-work-link" onmouseover="portraitBackgroundIn(this)" onmouseout="portraitBackgroundOut(this)">Portraits</a>
-              <a href="/collages" class="home-work-link" onmouseover="collageBackgroundIn(this)" onmouseout="collageBackgroundOut(this)">Collages</a>
-              <a href="#" class="home-work-link">Projects</a>
+              <a data-component="hoverLink" href="/portraits" data-target="#portraitsImage" class="home-work-link">Portraits</a>
+              <a data-component="hoverLink" href="/collages" data-target="#collagesImage" class="home-work-link">Collages</a>
+              <a data-component="hoverLink" href="/projects" data-target="#projectsImage" class="home-work-link">Projects</a>
             </div>
           </div>
 
