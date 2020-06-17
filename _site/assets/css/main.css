@@ -6532,6 +6532,25 @@ a.text-dark:hover, a.text-dark:focus {
 .home-about-contact-group {
   max-width: max-content; }
 
+.home-about-contact-group:hover {
+  text-decoration: none;
+  color: black;
+  animation: fill-out 0.5s ease;
+  animation-fill-mode: forwards; }
+
+.home-about-contact-link {
+  text-decoration: none;
+  color: black; }
+
+@keyframes fill-out {
+  0% {
+    background-color: none;
+    opacity: 0%; }
+  50% {
+    background-color: yellow;
+    opacity: 50%; }
+  100% {
+    background-color: yellow; } }
 .home-about-contact-link {
   text-decoration: none;
   color: black;
@@ -6685,7 +6704,7 @@ a.text-dark:hover, a.text-dark:focus {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
   color: black;
   display: block;
   transition: 0.3s;
