@@ -5,13 +5,16 @@ layout: default
 <body class="home-body">
   <div class="index-image-container">
     <img id="homeImage" class="show index-image" src="/assets/white-background-texture.JPG"/>
-    <img id="portraitsImage" class="hidden index-image" src="/assets/portraits-home.jpg"/>
-    <img id="collagesImage" class="hidden index-image" src="/assets/collages-home.jpg"/>
-    <img id="projectsImage" class="hidden index-image" src="/assets/projects-home.jpg"/>
+    <img id="portraitsImage" class="hidden index-image" src="/assets/portraits.jpg"/>
+    <img id="collagesImage" class="hidden index-image" src="/assets/collages.jpg"/>
+    <img id="projectsImage" class="hidden index-image" src="/assets/projects.jpg"/>
+  </div>
+  <div class="home-sidebar-container">
+    {% include sidebar.html %}
   </div>
   <div class="home-main-container container">
     <div class="row">
-      <div class="col-4 h-100">
+      <div class="col-12 col-md-8 h-100 first-home-container">
         <div class="home-left-container">
           <div class="home-logo-container">
             <img src="assets/logonegro.png" class="home-logo">
@@ -23,20 +26,23 @@ layout: default
           <div class="home-about-contact-container">
             <div class="home-about-contact-group" id="about-contact" onmouseover="backgroundColorIn(this)" onmouseout="backgroundColorOut(this)">
               <img class="arrow-icon" src="assets/right-arrow.ico">
-              <a class="home-about-contact-text">About + Contact</a>
+              <a class="home-about-contact-link" href="/about">About + Contact</a>
             </div>
           </div>
           <div class="home-social-media-links">
-            <img src="assets/behance.ico" alt="behance" class="home-social-media-icon">
-            <img src="assets/instagram.ico" alt="instagram" class="home-social-media-icon">
+            <a class="social-icon" target="_blank" href="https://www.behance.net/gallery/97983553/By-Pieces">
+              <i class="fab fa-behance fa-2x mr-2 behance-icon"></i>
+            </a>
+            <a class="social-icon" target="_blank" href="https://www.instagram.com/accounts/login/?next=/icm.design/%3Fhl%3Den">
+              <i class="fab fa-instagram fa-2x instagram-icon"></i>
+            </a>
           </div>
+
+
         </div>
       </div>
-      <div class="col-8">
+      <div class="col-12 col-md-4">
         <div class="home-right-container">
-          <div class="home-sidebar-container">
-            {% include sidebar.html %}
-          </div>
           <div class="home-work-container">
             <div class="home-work-links">
               <a data-component="hoverLink" href="/portraits" data-target="#portraitsImage" class="home-work-link">Portraits</a>

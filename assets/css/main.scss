@@ -66,7 +66,9 @@ $bootstrap-xl: 1200px;
   max-width: max-content;
 }
 
-.home-about-contact-text {
+.home-about-contact-link {
+  text-decoration: none;
+  color: black;
   font-size: 20px;
 }
 
@@ -78,8 +80,17 @@ $bootstrap-xl: 1200px;
   height: 10vh;
 }
 
-.home-social-media-icon {
-  width: 40px;
+.social-icon {
+  text-decoration: none;
+  color: #373b3e;
+}
+
+.behance-icon:hover {
+  color: #e93e2a;
+}
+
+.instagram-icon:hover {
+  color: #f0ab4d;
 }
 
 .home-right-container {
@@ -89,7 +100,10 @@ $bootstrap-xl: 1200px;
 }
 
 .home-sidebar-container {
-  height: 20vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-top: 10px;
 }
 
 .home-work-subtitle-container {
@@ -133,6 +147,7 @@ $bootstrap-xl: 1200px;
   right: 0;
   left: 300px;
   overflow: hidden;
+  z-index: -2;
 }
 
 .index-image {
@@ -163,13 +178,13 @@ $bootstrap-xl: 1200px;
     opacity: 0%;
   }
   100% {
-    opacity: 80%;
+    opacity: 90%;
   }
 }
 
 @keyframes slide-out {
   0% {
-    opacity: 80%;
+    opacity: 90%;
   }
   100% {
     opacity: 0%;
@@ -178,6 +193,7 @@ $bootstrap-xl: 1200px;
 
 
 // Navbar
+
 .nav-bar-main {
   z-index: 1;
 }
@@ -204,6 +220,11 @@ $bootstrap-xl: 1200px;
   align-items: center;
 }
 
+.current {
+  font-weight: bold;
+  color: red!important;
+}
+
 .nav-bar-link:hover {
   color: red;
   text-decoration: none;
@@ -214,7 +235,8 @@ $bootstrap-xl: 1200px;
   font-family: "Roboto";
 }
 
-// Menu
+// Sidebar
+
 .sidenav-main-container {
   display: flex;
   justify-content: center;
@@ -246,7 +268,7 @@ $bootstrap-xl: 1200px;
   color: black;
   display: block;
   transition: 0.3s;
-  font-family: 'Bebas Neue';
+  font-family: 'Roboto';
   font-size: 50px;
   padding: 10px;
   align-items: center;
@@ -320,4 +342,81 @@ $bootstrap-xl: 1200px;
       height: 480px;
     }
   }
+}
+
+// About
+
+.logo-sidebar-container {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-logo {
+  width: 100px;
+}
+
+.about-title {
+  margin-bottom: 50px;
+  color: #e93e2a;
+}
+
+.about-container {
+  padding-right: 100px;
+}
+
+// Mobile Homepage
+
+@media (max-width: $bootstrap-sm) {
+
+  .index-image-container {
+    left: 150px;
+  }
+
+  .first-home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-right-container {
+    display: none;
+  }
+}
+
+// Mobile Navbar
+
+@media (max-width: $bootstrap-sm) {
+
+  .nav-bar-container {
+    justify-content: space-around;
+  }
+
+  .nav-bar-links {
+    display: none;
+  }
+
+  .nav-bar-logo {
+    max-width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+// Mobile About
+
+@media (max-width: $bootstrap-sm) {
+
+  .about-container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    padding-bottom: 20px;
+  }
+
 }
