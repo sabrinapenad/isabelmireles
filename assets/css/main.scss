@@ -16,6 +16,7 @@ $bootstrap-xl: 1200px;
 
 // Homepage
 
+
 .home-main-container {
   padding-top: 50px;
   animation: slide-in 0.5s 1;
@@ -69,36 +70,18 @@ $bootstrap-xl: 1200px;
 .home-about-contact-group:hover {
   text-decoration: none;
   color: black;
-  animation: fill-out 0.5s ease;
-  animation-fill-mode: forwards;
-}
-
-.home-about-contact-link {
-  text-decoration: none;
-  color: black;
-}
-
-
-@keyframes fill-out {
-  0% {
-    background-color: none;
-    opacity: 0%;
-  }
-
-  50% {
-    background-color: yellow;
-    opacity: 50%;
-  }
-
-  100% {
-    background-color: yellow;
-  }
 }
 
 .home-about-contact-link {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+
+.home-about-contact-link:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .arrow-icon {
@@ -148,7 +131,7 @@ $bootstrap-xl: 1200px;
 
 
 .home-work-links {
-  padding-top: 100px;
+  padding-top: 200px;
   align-items: flex-end;
   display: flex;
   flex-direction: column;
@@ -174,7 +157,7 @@ $bootstrap-xl: 1200px;
   height: 100%;
   top: 0;
   right: 0;
-  left: 300px;
+  left: 450px;
   overflow: hidden;
   z-index: -2;
 }
@@ -393,8 +376,38 @@ $bootstrap-xl: 1200px;
   color: #e93e2a;
 }
 
+.about-main-container {
+  height: 100%;
+}
+
 .about-container {
   padding-right: 100px;
+}
+
+// .form-container {
+//   background-image: url("/assets/background1.jpg");
+//   padding: 20px;
+// }
+
+.about-image-container {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 680px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+label {
+  color: whitesmoke!important;
 }
 
 // Mobile Homepage
