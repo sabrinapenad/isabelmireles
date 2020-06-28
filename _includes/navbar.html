@@ -1,16 +1,16 @@
 <div class="nav-bar-main sticky-top">
   <div class="row nav-bar-container">
-    <div class="col-2 nav-bar-logo-container">
+    <div class="col-6 col-md-2 nav-bar-logo-container">
       <a href="/">
         <img src="assets/logonegro.png" class="nav-bar-logo"/>
       </a>
     </div>
     <div class="col nav-bar-links">
-      <a href="/collages" class="nav-bar-link">Collages</a>
-      <a href="/portraits" class="nav-bar-link">Portraits</a>
-      <a href="/projects" class="nav-bar-link">Projects</a>
+      <a href="/portraits" class="{% if page.url == '/portraits' %}current{% endif %} nav-bar-link">Portraits</a>
+      <a href="/collages" class="{% if page.url == '/collages' %}current{% endif %} nav-bar-link">Collages</a>
+      <a href="/projects" class="{% if page.url == '/projects' %}current{% endif %} nav-bar-link">Projects</a>
     </div>
-    <div class="col-2 sidenav-main-container">
+    <div class="col-6 col-md-2 sidenav-main-container">
       {% include sidebar.html %}
     </div>
   </div>

@@ -1,6 +1,134 @@
 ---
 workPost:
 - sys:
+    id: 35Z1AZYbiM8GTzCAIm9ECx
+    created_at: !ruby/object:DateTime 2020-06-18 01:59:22.739000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-18 01:59:22.739000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: '"Cuesta arriba"'
+  category: Collage
+  image:
+    sys:
+      id: 5naA4fee5dQmxqIsFZJfTT
+      created_at: !ruby/object:DateTime 2020-06-18 01:58:59.997000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 01:58:59.997000000 Z
+    title: cuesta arriba
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/5naA4fee5dQmxqIsFZJfTT/013eed8fc5b3cfb5ea2918fbb131ba74/work3.jpg"
+- sys:
+    id: 7u1coLKDQTiFWlIB2ZbacG
+    created_at: !ruby/object:DateTime 2020-06-18 01:54:56.001000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-18 01:54:56.001000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: Reaching out
+  category: Collage
+  image:
+    sys:
+      id: 6B3OvJ3GwrLUdqBo33y2pj
+      created_at: !ruby/object:DateTime 2020-06-18 01:54:36.588000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 01:54:36.588000000 Z
+    title: reaching out
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/6B3OvJ3GwrLUdqBo33y2pj/cde799e03efe5ee95cd8af9f65024a00/wups.jpg"
+- sys:
+    id: 1DT2gnUDGKwgeDpcMyTJmI
+    created_at: !ruby/object:DateTime 2020-06-18 01:43:08.722000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-18 01:43:08.722000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: Valen I
+  category: Portrait
+  image:
+    sys:
+      id: 6lRcqLUQ0xTHsmK5keKoC8
+      created_at: !ruby/object:DateTime 2020-06-18 01:38:05.362000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-18 01:38:05.362000000 Z
+    title: Valen I
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/6lRcqLUQ0xTHsmK5keKoC8/e6493747191ff5d513b6e9feb7d48a0c/portraits.jpg"
+- sys:
+    id: 4UrqLIaMfjHjEu0OAXNJZg
+    created_at: !ruby/object:DateTime 2020-06-17 21:50:15.685000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 21:50:15.685000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: Till the end
+  category: Collage
+  image:
+    sys:
+      id: 30gxcJbLHCUrM9bLimzuf3
+      created_at: !ruby/object:DateTime 2020-06-17 21:49:56.313000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 21:49:56.313000000 Z
+    title: till the end
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/30gxcJbLHCUrM9bLimzuf3/0c791c40ab598eb08cd9fe04852ef13f/collges.jpg"
+- sys:
+    id: 69u9FnZcbOQrBjBHBCFA0b
+    created_at: !ruby/object:DateTime 2020-06-17 21:45:42.385000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 21:45:42.385000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: Organics Vol 1.
+  category: Collage
+  image:
+    sys:
+      id: 1BtEZxS6rTofNokOE8A6kp
+      created_at: !ruby/object:DateTime 2020-06-17 21:05:39.347000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 21:45:20.605000000 Z
+    title: organics vol. 1
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/1BtEZxS6rTofNokOE8A6kp/1848b9c47ad9555580be2a8fc303187e/collages.jpg"
+- sys:
+    id: 70qOR1giS0xIjwSx9tnOhv
+    created_at: !ruby/object:DateTime 2020-06-04 15:21:47.865000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 21:00:12.353000000 Z
+    content_type_id: workPost
+    revision: 2
+  title: Movement I
+  category: Portrait
+  image:
+    sys:
+      id: 1MMtFQXb0H5q0wiVDifIgv
+      created_at: !ruby/object:DateTime 2020-06-04 15:21:33.808000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 21:00:21.276000000 Z
+    title: Nat
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/1MMtFQXb0H5q0wiVDifIgv/ca2e83ffa3bb8888d65405bfa3850891/nat.jpg"
+- sys:
+    id: cGcErLioOKMkb2oNpLLyl
+    created_at: !ruby/object:DateTime 2020-06-17 20:57:26.271000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 20:57:26.271000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: Distorted pixels I
+  category: Portrait
+  image:
+    sys:
+      id: 150HulshpnRga213NGn1Xp
+      created_at: !ruby/object:DateTime 2020-06-17 20:56:45.962000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 20:56:45.962000000 Z
+    title: Distort pixels I
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/150HulshpnRga213NGn1Xp/2c7dd10b934cec786e12ad7f9b7a4bc7/cla.png"
+- sys:
+    id: 4LiONowKqSTNwsNpcNBxaY
+    created_at: !ruby/object:DateTime 2020-06-17 20:50:40.338000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-17 20:50:40.338000000 Z
+    content_type_id: workPost
+    revision: 1
+  title: Line I
+  category: Portrait
+  image:
+    sys:
+      id: 5DN7JQQUA1xrWtxTUCWjs9
+      created_at: !ruby/object:DateTime 2020-06-17 20:50:05.441000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-17 20:50:05.441000000 Z
+    title: Line I
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/5DN7JQQUA1xrWtxTUCWjs9/1fc63758d50905e36d3fb60349df1807/Line_I.jpg"
+- sys:
     id: 1C86vg5Ay5nuogpzozXFGD
     created_at: !ruby/object:DateTime 2020-06-04 15:25:20.275000000 Z
     updated_at: !ruby/object:DateTime 2020-06-04 15:25:20.275000000 Z
@@ -14,7 +142,7 @@ workPost:
       created_at: !ruby/object:DateTime 2020-06-04 15:25:11.167000000 Z
       updated_at: !ruby/object:DateTime 2020-06-04 15:25:11.167000000 Z
     title: lost
-    description:
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/4wsyRaEdhJuO3Q0nfqgihB/199cb35d54c8f2940f5212543f20c809/lost.jpg"
 - sys:
     id: QfYnzmeSOnvyQKkDZNDar
@@ -30,7 +158,7 @@ workPost:
       created_at: !ruby/object:DateTime 2020-06-04 15:24:33.967000000 Z
       updated_at: !ruby/object:DateTime 2020-06-04 15:24:33.967000000 Z
     title: joy
-    description:
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/3imTGF4Noo1zSc1jy5V3ps/db1cad4bf8266eb01877820318e93a9a/joy.jpg"
 - sys:
     id: 6H4Z74wHSen0tHe1fRzjxb
@@ -46,7 +174,7 @@ workPost:
       created_at: !ruby/object:DateTime 2020-06-04 15:23:42.183000000 Z
       updated_at: !ruby/object:DateTime 2020-06-04 15:23:42.183000000 Z
     title: freedom
-    description:
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/5ftKBGikYIDc52PaRMOMHR/0ac0761d62cc2788f78087a51649c91f/freedom.jpg"
 - sys:
     id: 2eLA64GEOd4ef8IYjB7ucT
@@ -62,24 +190,8 @@ workPost:
       created_at: !ruby/object:DateTime 2020-06-04 15:22:33.311000000 Z
       updated_at: !ruby/object:DateTime 2020-06-04 15:22:33.311000000 Z
     title: fluids
-    description:
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/6ejCHHZVJnNPB6aiWpSTkU/e3b69fe8b98aa6a4b3e469f9ceb815d2/fluids.jpg"
-- sys:
-    id: 70qOR1giS0xIjwSx9tnOhv
-    created_at: !ruby/object:DateTime 2020-06-04 15:21:47.865000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-04 15:21:47.865000000 Z
-    content_type_id: workPost
-    revision: 1
-  title: Nat
-  category: Portrait
-  image:
-    sys:
-      id: 1MMtFQXb0H5q0wiVDifIgv
-      created_at: !ruby/object:DateTime 2020-06-04 15:21:33.808000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-04 15:21:33.808000000 Z
-    title: nat
-    description:
-    url: "//images.ctfassets.net/mdb7wi33n4kq/1MMtFQXb0H5q0wiVDifIgv/ca2e83ffa3bb8888d65405bfa3850891/nat.jpg"
 - sys:
     id: 4As8JnMkA4nhXsYN6dBIs9
     created_at: !ruby/object:DateTime 2020-06-04 15:20:46.824000000 Z
@@ -92,9 +204,9 @@ workPost:
     sys:
       id: 6KSoUKS4jicxZ2qBXXGxOZ
       created_at: !ruby/object:DateTime 2020-06-04 15:20:22.457000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-04 15:20:22.457000000 Z
-    title: ForValen&Emi
-    description:
+      updated_at: !ruby/object:DateTime 2020-06-17 20:58:30.607000000 Z
+    title: Valen & Emi
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/6KSoUKS4jicxZ2qBXXGxOZ/9bda38b05f3f3d6717b7abf9ef50f867/ForValen_Emi.jpg"
 - sys:
     id: 6NIrlJgga5TE9Ies8oMF7Y
@@ -110,7 +222,7 @@ workPost:
       created_at: !ruby/object:DateTime 2020-06-04 15:18:59.202000000 Z
       updated_at: !ruby/object:DateTime 2020-06-04 15:18:59.202000000 Z
     title: ForMari
-    description:
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/7fET3dRE7fX54NLG946ltr/3982c95bedaad42b16b0248d842941e9/ForMari.jpg"
 - sys:
     id: 5GFMcHHUZlH0H96YIEVDPx
@@ -124,9 +236,9 @@ workPost:
     sys:
       id: 3ntLlQBUT6PelummHjgoem
       created_at: !ruby/object:DateTime 2020-06-04 14:05:48.410000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-04 14:05:48.410000000 Z
-    title: ForEmi2
-    description:
+      updated_at: !ruby/object:DateTime 2020-06-17 20:57:58.602000000 Z
+    title: Emi II
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/3ntLlQBUT6PelummHjgoem/2a2c9f20c49a49a45978f6aa2dc014f0/ForEmi2.jpg"
 - sys:
     id: 4yMKmW2qDQwK3T6ChPfACg
@@ -140,26 +252,10 @@ workPost:
     sys:
       id: 6UJVs2BjosWwdg1Sn3NK6I
       created_at: !ruby/object:DateTime 2020-06-04 14:01:32.336000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-04 14:01:32.336000000 Z
-    title: ForEmi1
-    description:
+      updated_at: !ruby/object:DateTime 2020-06-18 02:06:10.664000000 Z
+    title: Emi I
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/6UJVs2BjosWwdg1Sn3NK6I/7ca98019d5df588601d8077178839927/ForEmi1.jpg"
-- sys:
-    id: 3Fu4GAYcXqqrmNRCrK5wwU
-    created_at: !ruby/object:DateTime 2020-06-04 13:59:27.158000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-04 13:59:27.158000000 Z
-    content_type_id: workPost
-    revision: 1
-  title: Fathers Day Gift
-  category: Portrait
-  image:
-    sys:
-      id: 2aPSm8qAdyHFNcmVYR0In3
-      created_at: !ruby/object:DateTime 2020-06-04 13:58:24.909000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-04 13:58:24.909000000 Z
-    title:
-    description:
-    url: "//images.ctfassets.net/mdb7wi33n4kq/2aPSm8qAdyHFNcmVYR0In3/6611d10ea4648c8cf60a97919cc89658/Fathers_Day_Gift.jpg"
 - sys:
     id: 3vlX0ppan3ddrqXxK6Ph96
     created_at: !ruby/object:DateTime 2020-05-29 20:55:42.563000000 Z
@@ -174,5 +270,5 @@ workPost:
       created_at: !ruby/object:DateTime 2020-05-29 20:55:29.907000000 Z
       updated_at: !ruby/object:DateTime 2020-05-29 20:55:29.907000000 Z
     title: CLARI
-    description:
+    description: 
     url: "//images.ctfassets.net/mdb7wi33n4kq/1wdkSbLkBWDHfLTvC9f95t/bba0d2e3892905f953bb643bad850231/CLARI.jpg"
