@@ -335,6 +335,11 @@ $bootstrap-xl: 1200px;
   background-color: whitesmoke;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
 
 @media (min-width: $bootstrap-sm) {
 

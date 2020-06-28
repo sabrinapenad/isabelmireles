@@ -6738,6 +6738,10 @@ a.text-dark:hover, a.text-dark:focus {
 .work-body {
   background-color: whitesmoke; }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1); }
+
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 800px; }
