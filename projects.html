@@ -1,0 +1,48 @@
+---
+layout: default
+permalink: projects
+---
+
+{%- include navbar.html -%}
+
+
+<body class="projects-body">
+
+  <div class="container mt-5">
+    {%- for item in site.data.contentful.spaces.isabelmireles.projects -%}
+      {%- assign remainder = forloop.index | modulo: 2 -%}
+      {%- if remainder == 1 -%}
+        <div class="projects-row projects-row-left row">
+          <div class="project-hover">
+            <a class="projects-link" href="{{ item.link }}?q=10" target="_blank">
+              <img src="{{ item.cover_image.url }}" class="projects-image" alt="avila">
+            </a>
+            <h3 class="projects-title hover-hide">
+              <span class="projects-main-title left-title">{{ item.project_title }}</span>
+            </h3>
+            <h3 class="projects-title hover-show">
+              <span class="projects-main-title left-title black-title">View project</span>
+            </h3>
+          </div>
+        </div>
+      {%- endif -%}
+      {%- if remainder == 0 -%}
+        <div class="projects-row projects-row-right row">
+          <div class="project-hover right-hover">
+            <h3 class="projects-title hover-hide">
+              <span class="projects-main-title right-title">{{ item.project_title }}</span>
+            </h3>
+            <h3 class="projects-title hover-show">
+              <span class="projects-main-title right-title black-title">View project</span>
+            </h3>
+            <a class="projects-link" href="{{ item.link }}?q=10" target="_blank">
+              <img src="{{ item.cover_image.url }}" class="projects-image right-image" alt="avila">
+            </a>
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  {% include loadJS.html %}
+</body>

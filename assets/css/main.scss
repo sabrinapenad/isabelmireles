@@ -89,12 +89,18 @@ $bootstrap-xl: 1200px;
 }
 
 .home-social-media-links {
-  height: 10vh;
+  width: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icon {
   text-decoration: none;
   color: #373b3e;
+}
+
+.social-icon:first-child {
+  margin-right: 10px;
 }
 
 .behance-icon:hover {
@@ -207,7 +213,7 @@ $bootstrap-xl: 1200px;
 // Navbar
 
 .nav-bar-main {
-  z-index: 1;
+  z-index: 5;
 }
 
 .nav-bar-container {
@@ -389,11 +395,6 @@ $bootstrap-xl: 1200px;
   padding-right: 100px;
 }
 
-// .form-container {
-//   background-image: url("/assets/background1.jpg");
-//   padding: 20px;
-// }
-
 .about-image-container {
   position: absolute;
   height: 100%;
@@ -414,6 +415,68 @@ $bootstrap-xl: 1200px;
 label {
   color: whitesmoke!important;
 }
+
+// Projects Index
+
+.projects-row-left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.projects-row-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.projects-image {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.projects-title {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.projects-main-title {
+  color: red;
+  font-size: 50px;
+}
+
+.left-title {
+  margin-left: -15px;
+}
+
+.right-title {
+  margin-right: -15px;
+}
+
+.black-title {
+  color: black!important;
+}
+
+.project-hover {
+  display: flex;
+}
+
+.hover-show {
+  display: none;
+}
+
+.project-hover:hover .hover-hide {
+  display: none;
+}
+
+.project-hover:hover .hover-show {
+  display: flex;
+}
+
 
 // Mobile Homepage
 
@@ -450,6 +513,11 @@ label {
     max-width: 80%;
     margin-bottom: 10px;
   }
+
+  .sidenav a {
+    font-size: 40px;
+  }
+  
 }
 
 // Mobile About
@@ -464,6 +532,46 @@ label {
 
   .form-container {
     padding-bottom: 20px;
+  }
+
+  .contact-form {
+    background-image: url("/assets/background1.jpg");
+    padding: 10px;
+  }
+
+}
+
+// Mobile Projects
+
+@media (max-width: $bootstrap-sm) {
+
+  .project-hover {
+    flex-direction: column;
+  }
+
+  .projects-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .projects-row {
+    justify-content: center;
+  }
+
+  .projects-row-right {
+    flex-direction: column;
+  }
+
+  .left-title {
+    margin-left: 0px;
+  }
+
+  .projects-main-title {
+    font-size: 30px;
+  }
+
+  .right-hover {
+    flex-direction: column-reverse;
   }
 
 }
