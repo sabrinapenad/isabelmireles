@@ -5,38 +5,35 @@ permalink: collages
 
 {%- include navbar.html -%}
 
+{% assign posts = site.data.contentful.spaces.isabelmireles.workPost | where:"category","Collage" %}
+
+
 
 <body class="work-body">
   <div class="container mt-5">
     <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
       <div class="col-12 col-md-4">
-        {%- for item in site.data.contentful.spaces.isabelmireles.workPost -%}
-          {% if item.category == "Collage" %}
-            {%- assign remainder = forloop.index | modulo: 3 -%}
-            {%- if remainder == 1 -%}
-              <img class="w-100 mb-3" src="{{ item.image.url }}?q=10" data-target="#carouselExample" data-slide-to="{{ forloop.index0 }}">
-            {%- endif -%}
-          {% endif %}
+        {%- for item in posts -%}
+          {%- assign remainder = forloop.index | modulo: 3 -%}
+          {%- if remainder == 1 -%}
+            <img class="w-100 mb-3" src="{{ item.image.url }}?q=10" data-target="#carouselExample" data-slide-to="{{ forloop.index0 }}">
+          {%- endif -%}
         {%- endfor -%}
       </div>
       <div class="col-12 col-md-4">
-        {%- for item in site.data.contentful.spaces.isabelmireles.workPost -%}
-          {% if item.category == "Collage" %}
-            {%- assign remainder = forloop.index | modulo: 3 -%}
-            {%- if remainder == 2 -%}
-              <img class="w-100 mb-3" src="{{ item.image.url }}?q=10" data-target="#carouselExample" data-slide-to="{{ forloop.index0 }}">
-            {%- endif -%}
-          {% endif %}
+        {%- for item in posts -%}
+          {%- assign remainder = forloop.index | modulo: 3 -%}
+          {%- if remainder == 2 -%}
+            <img class="w-100 mb-3" src="{{ item.image.url }}?q=10" data-target="#carouselExample" data-slide-to="{{ forloop.index0 }}">
+          {%- endif -%}
         {%- endfor -%}
       </div>
       <div class="col-12 col-md-4">
-        {%- for item in site.data.contentful.spaces.isabelmireles.workPost -%}
-          {% if item.category == "Collage" %}
-            {%- assign remainder = forloop.index | modulo: 3 -%}
-            {%- if remainder == 0 -%}
-              <img class="w-100 mb-3" src="{{ item.image.url }}?q=10" data-target="#carouselExample" data-slide-to="{{ forloop.index0 }}">
-            {%- endif -%}
-          {% endif %}
+        {%- for item in posts -%}
+          {%- assign remainder = forloop.index | modulo: 3 -%}
+          {%- if remainder == 0 -%}
+            <img class="w-100 mb-3" src="{{ item.image.url }}?q=10" data-target="#carouselExample" data-slide-to="{{ forloop.index0 }}">
+          {%- endif -%}
         {%- endfor -%}
       </div>
     </div>
@@ -56,7 +53,7 @@ permalink: collages
           <!-- Carousel markup -->
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-              {%- for item in site.data.contentful.spaces.isabelmireles.workPost -%}
+              {%- for item in posts -%}
                 <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
                   <img class="d-block w-100" src="{{ item.image.url }}?q=20">
                   <h3 class="text-center">{{ item.title }}</h3>

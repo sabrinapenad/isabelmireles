@@ -1,4 +1,87 @@
 ---
+about:
+- sys:
+    id: 5DZS4WTZmYHI3XCncYwSHQ
+    created_at: !ruby/object:DateTime 2020-09-07 12:12:10.263000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-07 22:28:58.955000000 Z
+    content_type_id: about
+    revision: 2
+  heading: Hi there, I'm Isa!
+  bio: There are many variations of passages of Lorem Ipsum available, but the majority
+    have suffered alteration in some form, by injected humour, or randomised words
+    which don't look even slightly believable. If you are going to use a passage of
+    Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+    middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+    predefined chunks as necessary, making this the first true generator on the Internet.
+    It uses a dictionary of over 200 Latin words, combined with a handful of model
+    sentence structures, to generate Lorem Ipsum which looks reasonable. The generated
+    Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic
+    words etc.
+projects:
+- sys:
+    id: 68HSXw5K3ESrJfk5oXDtnL
+    created_at: !ruby/object:DateTime 2020-09-06 22:54:14.297000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-06 22:54:14.297000000 Z
+    content_type_id: projects
+    revision: 1
+  project_title: Family
+  cover_image:
+    sys:
+      id: 7b5LDMkWgYT7WMIU26pcTm
+      created_at: !ruby/object:DateTime 2020-09-06 22:54:03.041000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-06 22:54:03.041000000 Z
+    title: Family
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/7b5LDMkWgYT7WMIU26pcTm/5b7b5210685089192183591569f14873/Family.jpg"
+  link: https://www.behance.net/gallery/97983553/By-Pieces
+- sys:
+    id: 5QXV21LOL7hvUU8RtMC7Mv
+    created_at: !ruby/object:DateTime 2020-09-06 15:22:23.332000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-06 15:22:23.332000000 Z
+    content_type_id: projects
+    revision: 1
+  project_title: Some Theater
+  cover_image:
+    sys:
+      id: 5Jx8PQGW8EFbdigSaXzIrF
+      created_at: !ruby/object:DateTime 2020-09-06 15:22:15.540000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-06 15:22:15.540000000 Z
+    title: collages
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/5Jx8PQGW8EFbdigSaXzIrF/9e59ebc08a0c16d392f6c4697ad81002/collages.jpg"
+  link: https://www.behance.net/gallery/97983553/By-Pieces
+- sys:
+    id: 5onir9RKDESmnhOsM6gtFg
+    created_at: !ruby/object:DateTime 2020-09-06 15:21:25.179000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-06 15:21:25.179000000 Z
+    content_type_id: projects
+    revision: 1
+  project_title: Shoe Exploration
+  cover_image:
+    sys:
+      id: 5S5Eb1MLyZ1gLPBAea9sJD
+      created_at: !ruby/object:DateTime 2020-09-06 15:21:16.346000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-06 15:21:16.346000000 Z
+    title: shoes
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/5S5Eb1MLyZ1gLPBAea9sJD/6e5eb2ffdc5f76a3302561d3bc426781/shoes.jpg"
+  link: https://www.behance.net/gallery/97983553/By-Pieces
+- sys:
+    id: 5tYCAPppnrBfrP7dDHqVIY
+    created_at: !ruby/object:DateTime 2020-09-06 15:18:57.926000000 Z
+    updated_at: !ruby/object:DateTime 2020-09-06 15:20:15.687000000 Z
+    content_type_id: projects
+    revision: 2
+  project_title: By Pieces
+  cover_image:
+    sys:
+      id: 3QKcTyvm2lEOQzLZv1kExn
+      created_at: !ruby/object:DateTime 2020-09-06 15:18:29.789000000 Z
+      updated_at: !ruby/object:DateTime 2020-09-06 15:18:29.789000000 Z
+    title: by-pieces-main-image
+    description: 
+    url: "//images.ctfassets.net/mdb7wi33n4kq/3QKcTyvm2lEOQzLZv1kExn/281ffd05461eab45f5244e627b4f36b3/by-pieces-main-image.jpg"
+  link: https://www.behance.net/gallery/97983553/By-Pieces
 workPost:
 - sys:
     id: 35Z1AZYbiM8GTzCAIm9ECx
