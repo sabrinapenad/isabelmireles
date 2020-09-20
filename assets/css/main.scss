@@ -18,13 +18,23 @@ $bootstrap-xl: 1200px;
 
 
 .home-main-container {
+  height: 90vh;
   padding-top: 50px;
   animation: slide-in 0.5s 1;
   animation-fill-mode: forwards;
 }
 
+.row {
+  height: 100%;
+  flex-wrap: nowrap!important;
+}
+
 .home-left-container {
   height: 100%;
+}
+
+.second-home-container {
+  justify-content: flex-end;
 }
 
 .home-logo-container {
@@ -76,6 +86,7 @@ $bootstrap-xl: 1200px;
   text-decoration: none;
   color: black;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -89,9 +100,12 @@ $bootstrap-xl: 1200px;
 }
 
 .home-social-media-links {
-  width: 200px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 350px;
+  height: 20vh;
+  justify-content: flex-end;
 }
 
 .social-icon {
@@ -347,26 +361,6 @@ $bootstrap-xl: 1200px;
 }
 
 
-@media (min-width: $bootstrap-sm) {
-
-  .modal-dialog {
-    max-width: 800px;
-  }
-
-  .modal-content {
-      /* 80% of window height */
-      height: 100%;
-  }
-
-  .carousel-item  {
-
-    img {
-      object-fit: scale-down;
-      height: 480px;
-    }
-  }
-}
-
 // About
 
 .logo-sidebar-container {
@@ -478,12 +472,34 @@ label {
 }
 
 
-// Mobile Homepage
+// Mobile and Tablet Homepage
 
 @media (max-width: $bootstrap-sm) {
 
   .index-image-container {
-    left: 150px;
+    left: 0px;
+    height: 50%;
+  }
+
+  .home-main-text-container {
+    margin-bottom: 10px;
+    height: auto;
+  }
+
+  .home-social-media-links {
+    width: auto;
+  }
+
+  .home-logo-container {
+    height: 20vh;
+  }
+
+  .home-main-title {
+    padding-bottom: 80px;
+  }
+
+  .home-main-subtitle {
+    text-align: center;
   }
 
   .first-home-container {
@@ -492,8 +508,21 @@ label {
     justify-content: center;
   }
 
-  .home-right-container {
-    display: none;
+}
+
+@media (max-width: $bootstrap-md) {
+
+  .home-main-container {
+    padding-top: 0px;
+  }
+
+  .index-image-container {
+    min-height: 100vh;
+    left: 500px;
+  }
+
+  .home-work-links {
+    padding-top: 200px;
   }
 }
 
@@ -517,10 +546,10 @@ label {
   .sidenav a {
     font-size: 40px;
   }
-  
+
 }
 
-// Mobile About
+// Mobile and Tablet About
 
 @media (max-width: $bootstrap-sm) {
 
@@ -540,6 +569,40 @@ label {
   }
 
 }
+
+@media (max-width: $bootstrap-md) {
+
+  .about-main-container {
+    margin-bottom: 50px;
+  }
+
+  .about-image-container {
+    left: 450px;
+    height: 100%;
+  }
+}
+// Mobile and Tablet Work
+
+@media (max-width: $bootstrap-sm) {
+
+  .modal-dialog {
+    max-width: 800px;
+  }
+
+  .modal-content {
+      /* 80% of window height */
+      height: 100%;
+  }
+
+  .carousel-item  {
+
+    img {
+      object-fit: scale-down;
+      height: 480px;
+    }
+  }
+}
+
 
 // Mobile Projects
 
@@ -572,6 +635,22 @@ label {
 
   .right-hover {
     flex-direction: column-reverse;
+  }
+
+  .carousel-item {
+    height: 80vh;
+    max-height: 80vh;
+  }
+
+  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-center {
+    margin-top: 10px;
   }
 
 }
