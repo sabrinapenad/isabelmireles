@@ -102,7 +102,6 @@ $bootstrap-xl: 1200px;
 .home-social-media-links {
   display: flex;
   flex-direction: column;
-  text-align: center;
   width: 350px;
   height: 20vh;
   justify-content: flex-end;
@@ -488,14 +487,12 @@ label {
 
   .home-social-media-links {
     width: auto;
+    margin-top: 100px;
+    align-items: center;
   }
 
   .home-logo-container {
     height: 20vh;
-  }
-
-  .home-main-title {
-    padding-bottom: 80px;
   }
 
   .home-main-subtitle {
@@ -508,25 +505,45 @@ label {
     justify-content: center;
   }
 
+  .social-icon {
+    font-size: 10px;
+  }
+
+  .social-icon:first-child {
+    margin-right: 0px;
+  }
+
 }
 
-@media (max-width: $bootstrap-md) {
+@media (min-width: $bootstrap-md) and (max-width: $bootstrap-lg) {
 
   .home-main-container {
     padding-top: 0px;
   }
 
-  .index-image-container {
-    min-height: 100vh;
-    left: 500px;
+  .home-right-container {
+    justify-content: center;
   }
 
   .home-work-links {
-    padding-top: 200px;
+    padding-top: 0px;
   }
+
+  .home-main-title {
+    font-size: 45px;
+  }
+
+  .social-icon {
+    font-size: 10px;
+  }
+
+  .social-icon:first-child {
+    margin-right: 0px;
+  }
+
 }
 
-// Mobile Navbar
+// Mobile and Tablet Navbar
 
 @media (max-width: $bootstrap-sm) {
 
@@ -544,7 +561,15 @@ label {
   }
 
   .sidenav a {
-    font-size: 40px;
+    font-size: 35px;
+  }
+
+}
+
+@media (min-width: $bootstrap-md) and (max-width: $bootstrap-lg) {
+
+  .sidenav a {
+    font-size: 35px;
   }
 
 }
@@ -554,8 +579,8 @@ label {
 @media (max-width: $bootstrap-sm) {
 
   .about-container {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-bottom: 20px;
   }
 
@@ -566,45 +591,43 @@ label {
   .contact-form {
     background-image: url("/assets/background1.jpg");
     padding: 10px;
+    background-size: contain;
+  }
+
+  .about-main-container {
+    flex-direction: column;
   }
 
 }
 
-@media (max-width: $bootstrap-md) {
+@media (min-width: $bootstrap-md) and (max-width: $bootstrap-lg) {
 
   .about-main-container {
     margin-bottom: 50px;
+    flex-direction: column;
   }
 
   .about-image-container {
     left: 450px;
     height: 100%;
   }
+
+  .contact-form {
+    background-image: url("/assets/background1.jpg");
+    padding: 10px;
+    background-size: contain;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about-description {
+    margin-bottom: 50px;
+  }
+
 }
-// Mobile and Tablet Work
-
-@media (max-width: $bootstrap-sm) {
-
-  .modal-dialog {
-    max-width: 800px;
-  }
-
-  .modal-content {
-      /* 80% of window height */
-      height: 100%;
-  }
-
-  .carousel-item  {
-
-    img {
-      object-fit: scale-down;
-      height: 480px;
-    }
-  }
-}
-
-
-// Mobile Projects
+// Mobile and Tablet Portraits and Collages
 
 @media (max-width: $bootstrap-sm) {
 
@@ -653,4 +676,40 @@ label {
     margin-top: 10px;
   }
 
+  .modal-dialog {
+    max-width: 800px;
+  }
+
+  .modal-content {
+      /* 80% of window height */
+      height: 100%;
+  }
+
+  .carousel-item  {
+
+    img {
+      object-fit: scale-down;
+      height: 480px;
+    }
+  }
+}
+
+@media (min-width: $bootstrap-md) {
+
+  .modal-dialog {
+    max-width: 800px;
+  }
+
+  .modal-content {
+      /* 80% of window height */
+      height: 100%;
+  }
+
+  .carousel-item  {
+
+    img {
+      object-fit: scale-down;
+      height: 480px;
+    }
+  }
 }

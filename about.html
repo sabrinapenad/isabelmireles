@@ -15,7 +15,7 @@ permalink: about
 
     <div class="row about-main-container">
 
-      <div class="col-12 col-md-12 about-container">
+      <div class="col-sm-12 col-md-12 col-lg-7 about-container">
         {%- for item in site.data.contentful.spaces.isabelmireles.about -%}
           <h2 class="about-title">{{ item.heading }}</h2>
           <p class="about-description">{{ item.bio }}</p>
@@ -26,7 +26,7 @@ permalink: about
         <img class="about-image" src="/assets/background1.jpg"/>
       </div>
 
-      <div class="col-12 col-md-5 form-container">
+      <div class="col-sm-12 col-md-12 col-lg-5 form-container">
         <form class="contact-form" action="https://getform.io/f/0620667a-e669-4003-a95d-a37326d3d5e6" method="POST">
           <div class="form-group">
             <label for="exampleFormControlInput1 form-text">Email address</label>
