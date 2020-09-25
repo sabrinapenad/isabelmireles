@@ -9,7 +9,7 @@ permalink: portraits
 
 <body class="work-body">
   <div class="container mt-5">
-    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+    <div class="row work-row" id="gallery" data-toggle="modal" data-target="#exampleModal">
       <div class="col-12 col-md-4">
         {%- for item in posts -%}
           {%- assign remainder = forloop.index | modulo: 3 -%}

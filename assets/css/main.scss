@@ -26,7 +26,7 @@ $bootstrap-xl: 1200px;
 
 .row {
   height: 100%;
-  flex-wrap: nowrap!important;
+  flex-wrap: nowrap;
 }
 
 .home-left-container {
@@ -476,9 +476,29 @@ label {
 @media (max-width: $bootstrap-sm) {
 
   .index-image-container {
-    left: 0px;
-    height: 50%;
+    display: none;
   }
+
+  .mobile-home-div {
+    background-image: url("/assets/background1.jpg");
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-main-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .home-left-container {
+    width: 100%;
+  }
+
 
   .home-main-text-container {
     margin-bottom: 10px;
@@ -654,6 +674,10 @@ label {
 
   .projects-main-title {
     font-size: 30px;
+  }
+
+  .work-row {
+    flex-wrap: wrap;
   }
 
   .right-hover {
